@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>7amdaStore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<div class="intro" id="intro"><span>7amdaStore</span></div>
+
+<header class="nav">
+  <a href="#" class="logo">7amdaStore</a>
+  <nav>
+    <a href="index.html" class="cur">Home</a>
+    <a href="store.html">Store</a>
+    <a href="index.html#about">About</a>
+  </nav>
+  <div class="icons">
+    <button aria-label="Account"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 4a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 14.2a8 8 0 01-6-2.7c.1-2 4-3.1 6-3.1s5.9 1.1 6 3.1a8 8 0 01-6 2.7z"/></svg></button>
+    <button aria-label="Open cart" id="cartBtn"><svg viewBox="0 0 24 24"><path d="M7 18a2 2 0 100 4 2 2 0 000-4zM1 2v2h2l3.6 7.6-1.4 2.4A2 2 0 007 17h12v-2H7.4l1.1-2h7.5a2 2 0 001.7-1l3.6-6.5A1 1 0 0020.4 4H5.2l-.9-2H1zm16 16a2 2 0 100 4 2 2 0 000-4z"/></svg><b id="cartCount">0</b></button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <img class="apple" src="images/apple.png" alt="Apple">
+    <p class="introducing">INTRODUCING</p>
+    <h1>iPhone 18</h1>
+    <h2>PRO</h2>
+    <a href="store.html" class="btn">STORE</a>
+  </div>
+  <img class="hero-img" src="images/hero.jpg" alt="iPhone 18 Pro in red">
+</section>
+
+<section class="best" id="best">
+  <h3 class="best-title">Your Best Seller</h3>
+  <div class="marquee">
+    <div class="track" id="track"></div>
+  </div>
+</section>
+
+<section class="features">
+  <article>
+    <p>Versatility.</p><p>Reimagined iOS.<br>Anything’s possible.</p>
+    <img src="images/feature1.png" alt="Foldable iPhone video call">
+  </article>
+  <article>
+    <p>iPhone Duo<br>Hello, hello.</p>
+    <img src="images/feature2.png" alt="iPhone Duo">
+  </article>
+  <article>
+    <p>All in the family</p><p>All the must-haves.<br>All on iPhone.</p>
+    <img src="images/feature3.png" alt="iPhone open book layout">
+  </article>
+</section>
+
+<section class="info" id="about">
+  <h3>Why shop at 7amdaStore</h3>
+  <p class="lead">Every iPhone we sell is brand new, sealed and checked before it leaves us.</p>
+  <div class="info-grid">
+    <article><h4>100% original</h4><p>Genuine Apple devices only, with the box and accessories included.</p></article>
+    <article><h4>Fast delivery</h4><p>Orders ship within 24 hours and arrive at your door, tracked all the way.</p></article>
+    <article><h4>1-year warranty</h4><p>If something goes wrong with your phone, we repair or replace it.</p></article>
+    <article><h4>Easy returns</h4><p>Changed your mind? Send it back within 14 days in its original condition.</p></article>
+    <article><h4>Secure payment</h4><p>Pay by card or cash on delivery. Your details are never shared.</p></article>
+    <article><h4>Real support</h4><p>Ask us anything about models, storage or colours before you buy.</p></article>
+  </div>
+</section>
+
+<footer class="foot">
+  <span class="logo">7amdaStore</span>
+  <span><a href="index.html">Home</a> &nbsp; <a href="store.html">Store</a> &nbsp; <a href="index.html#about">About</a></span>
+  <span>© 2026 7amdaStore</span>
+</footer>
+
+<div class="circle c-purple"></div>
+<div class="circle c-maroon"></div>
+<div class="circle c-navy"></div>
+
+
+<script src="cart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
